@@ -1,5 +1,4 @@
 ﻿# VB.Net_LerChaveOffice
-# # VB6_LerChaveOffice
 
 Para verificar a chave do caminho que está armazenada para o servidor, inicie o Editor do Registro do Windows, digitando regedit no menu Iniciar e depois na caixa de diálogo Executar. Navegue até a chave HKEY_CLASSES_ROOT\Clsid.
 Nessa chave você encontrará os CLSIDs para os servidores de automação registrados no sistema. Depois, usando os valores, encontre a chave que representa o aplicativo do Office que você quiser automatizar e verifique o caminho da chave LocalServer32 do mesmo.
